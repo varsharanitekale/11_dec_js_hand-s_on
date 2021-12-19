@@ -1,0 +1,77 @@
+body{
+    background-color: #efefef;
+    margin:0px;
+}
+  .header, .card{
+    background-color: white;
+    font-family: Libre Baskerville
+    ;
+
+
+}h2, h4{
+    margin: 0px;
+}
+
+   
+
+.header{
+    position:sticky;
+    top: 0px;
+    background-color: white;
+}
+.leftcontent{
+    /* flex-basis: 70vw; */
+    float:left;
+    width:calc(70%-10px);
+    padding:5px;
+
+
+}
+body{
+    height:100vh;
+}
+.rightcontent{
+    /* flex-basis: 30vw; */
+    float:right;
+    width:calc(30%-10);
+    padding:5px;
+
+
+}
+.right-sticky{
+    position:sticky;
+    top:90px;
+}
+.card{
+    margin:10px;
+
+}
+#c1{
+    border:5px solid red;
+
+}
+#c2{
+    border:  5px solid green;
+}
+#c3{
+    border:  5px solid yellow;
+
+
+}
+#c4{
+    border:5px solid gray;
+
+}
+
+.container{
+    display:flex;
+}
+#footer{
+    width:100vw;
+    height: 20vh;
+    color:white;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+}
